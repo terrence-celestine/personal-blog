@@ -43,11 +43,14 @@ function App() {
             great products.
           </p>
           <ul>
+            <li>Follow Me:</li>
             <li>
-              <img src="" />
+              <a href="https://www.linkedin.com/in/terrence-celestine-803b1193/">
+                LinkedIn
+              </a>
             </li>
             <li>
-              <img src="" />
+              <a href="https://github.com/terrence-celestine">Github</a>
             </li>
           </ul>
         </aside>

@@ -1,13 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
 
 html,
 body {
-  font-family: "Merriweather", serif;
+  font-family: "Times New Roman", serif;
 }
 .top-bar h1 {
   font-size: 16px;
   line-height: 18px;
   text-align: center;
+  font-family: "Open Sans", sans-serif;
 }
 #wrapper {
   max-width: 980px;
@@ -15,33 +16,63 @@ body {
 }
 article h2 {
   margin: 0;
+  font-family: "Open Sans", sans-serif;
+  color: #2772db;
 }
 .excerpt p {
-  font-size: 15px;
-  line-height: 30px;
+  font-size: 16px;
+  line-height: 24px;
   margin: 0 0 20px 0;
 }
 .post-meta {
   margin: 10px 0;
 }
-#main-container {
-  width: 65%;
-}
 #sidebar {
-  width: 30%;
+  width: 100%;
 }
 .main-section-wrapper {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  width: calc(100% - 20px);
+  margin: auto;
 }
 #sidebar {
-  font-size: 13px;
-  line-height: 30px;
+  font-size: 16px;
+  line-height: 24px;
+}
+#sidebar ul {
+  display: inline-flex;
+}
+#sidebar ul li {
+  margin: 0 10px 0 0;
+}
+#sidebar ul li a {
+  text-decoration: none;
+}
+#sidebar ul li a:hover {
+  text-decoration: underline;
 }
 #sidebar h4 {
   margin: 0;
 }
 #sidebar p {
   margin: 0;
+}
+#sidebar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@media (min-width: 1024px) {
+  .main-section-wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  #main-container {
+    width: 65%;
+  }
+  #sidebar {
+    width: 30%;
+  }
 }
