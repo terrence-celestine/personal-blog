@@ -1,14 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
 html,
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .top-bar h1 {
   font-size: 16px;
   line-height: 18px;
   text-align: center;
-  font-family: "Lora", serif;
+  font-family: "Poppins", serif;
 }
 #wrapper {
   max-width: 980px;
@@ -16,7 +16,7 @@ body {
 }
 article h2 {
   margin: 0;
-  font-family: "Lora", serif;
+  font-family: "Poppins", serif;
   color: #2772db;
 }
 .excerpt p {

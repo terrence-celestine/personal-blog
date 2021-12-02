@@ -1,9 +1,9 @@
 import React from "react";
-
+import "./index.css";
 export default function Footer() {
   return (
-    <div>
+    <footer>
       <span>Made in React</span>
-    </div>
+    </footer>
   );
 }
