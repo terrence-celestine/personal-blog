@@ -1,14 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Lora&display=swap");
 
 html,
 body {
-  font-family: "Times New Roman", serif;
+  font-family: "Lato", sans-serif;
 }
 .top-bar h1 {
   font-size: 16px;
   line-height: 18px;
   text-align: center;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Lora", serif;
 }
 #wrapper {
   max-width: 980px;
@@ -16,7 +16,7 @@ body {
 }
 article h2 {
   margin: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Lora", serif;
   color: #2772db;
 }
 .excerpt p {
